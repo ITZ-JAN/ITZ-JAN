@@ -869,8 +869,8 @@ if Ban5 == false then
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.QuestFrame.Visible = false end
 end)
 local CategoryVariableHere= Lib:Category("Credits")     
-CategoryVariableHere:Label("Credits to a r q for ui liba")
-CategoryVariableHere:Label("Credits to DekuDimz#7960 aka me lol")
+CategoryVariableHere:Label("Credits to a Teemo#8803 for ui liba")
+CategoryVariableHere:Label("Credits to Jan2#1448 aka me")
 Lib:Reload()
 
 
@@ -884,7 +884,7 @@ Title = "Credits";
 Text = "CharWar Serverhops";
 })
 local function copyDiscord()
-    setclipboard("https://discord.gg/jdt5z8T5ws")
+    setclipboard("https://discord.gg/qQBuNCQsWA")
 end
 
 local StarterGui = game:GetService("StarterGui")
@@ -907,7 +907,7 @@ function bindable.OnInvoke(response)
 end
 
 StarterGui:SetCore("SendNotification", {
-	Title = "V.G Hub Discord",
+	Title = "Shroom Discord",
 	Text = "Copy to clipboard?",
 	Duration = 5,
 	Callback = bindable,
