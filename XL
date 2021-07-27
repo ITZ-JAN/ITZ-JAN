@@ -869,8 +869,8 @@ if Ban5 == false then
 game:GetService("Players").LocalPlayer.PlayerGui.Menu.QuestFrame.Visible = false end
 end)
 local CategoryVariableHere= Lib:Category("Credits")     
-CategoryVariableHere:Label("Credits to a Teemo#8803 for ui liba")
-CategoryVariableHere:Label("Credits to Jan2#1448 aka me")
+CategoryVariableHere:Label("Credits to a ██Hentai██with██Senpai██#6738")
+CategoryVariableHere:Label("Credits to Jan2#1448")
 Lib:Reload()
 
 
