@@ -124,14 +124,8 @@ Carno1.TextScaled = true
 Carno1.TextSize = 14.000
 Carno1.TextWrapped = true
 Carno1.TextXAlignment = Enum.TextXAlignment.Left
-spawn(function()
-while wait(2) do
-	local text = "   "..game.Players.LocalPlayer.Name
-	for i = 1,#text,1 do
-		Name.Text = string.sub(text,1,i)
-		wait(0.08)
-	end
-end end)
+		local text = "   "..game.Players.LocalPlayer.Name
+			Name.Text = string.sub(text,1,i)
 fix.Name = "fix"
 fix.Parent = details
 fix.BackgroundColor3 = Color3.fromRGB(52, 52, 63)
@@ -620,20 +614,20 @@ function Lib:Category(name)
 		for i,v in pairs(tabl) do
 			local Button = Instance.new("TextButton")
 			local UICorner_5 = Instance.new("UICorner")
-		Button.Name = "Button"
-		Button.Parent = Scroll
-		Button.BackgroundColor3 = Color3.fromRGB(25, 24, 25)
-		Button.BorderSizePixel = 0
-		Button.Position = UDim2.new(0, 0, 0.208999932, 0)
-		Button.Size = UDim2.new(1, -12, 0, 32)
-		Button.ZIndex = 22
-		Button.AutoButtonColor = false
-		Button.Font = Enum.Font.ArialBold
-Button.Text = v
-		Button.TextColor3 = Color3.fromRGB(230, 230, 230)
-		Button.TextSize = 12.000
+			Button.Name = "Button"
+			Button.Parent = Scroll
+			Button.BackgroundColor3 = Color3.fromRGB(25, 24, 25)
+			Button.BorderSizePixel = 0
+			Button.Position = UDim2.new(0, 0, 0.208999932, 0)
+			Button.Size = UDim2.new(1, -12, 0, 32)
+			Button.ZIndex = 22
+			Button.AutoButtonColor = false
+			Button.Font = Enum.Font.ArialBold
+			Button.Text = v
+			Button.TextColor3 = Color3.fromRGB(230, 230, 230)
+			Button.TextSize = 12.000
 
-		UICorner_5.CornerRadius = UDim.new(0, 6)
+			UICorner_5.CornerRadius = UDim.new(0, 6)
 			UICorner_5.Parent = Button
 			Scroll.CanvasSize = Scroll.CanvasSize + UDim2.new(0,0,0,34)
 		end
